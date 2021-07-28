@@ -24,7 +24,7 @@ course_list_path = script_path + '/ine_courses.txt'
 course_list_index = script_path + '/ine_courses_index.txt'
 #Download location
 custom = True
-save_path = "~/Downloads" if(custom) else os.getcwd()
+save_path = "/home/kali/Downloads" if(custom) else os.getcwd()
 #headers
 accept = "application/json, text/plain, */*"
 x_requested_with = "com.my.ine"
